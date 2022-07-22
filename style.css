@@ -1,0 +1,129 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+body {
+    background: #1F2937;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding:0px 30px;
+}
+
+.navbar{
+    color:white;
+    height:80px;
+}
+.navbar a{
+    text-decoration: none;
+    color:white;
+}
+.navbar a:hover{
+    color:goldenrod;
+}
+.navbar ul{
+    list-style-type: none;
+}
+.navbar .container{
+    display:flex;
+    font-size: 24px;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar .container .nav{
+    display: flex;
+}
+.navbar .container .nav li{
+    font-weight: bold;
+    margin-left: 16px;
+}
+.hero{
+    height: 500px;
+    margin:32px 0;
+    padding:8px;
+    color:white;
+}
+.hero .container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+
+.hero .container h1{
+    margin-bottom: 16px;
+    font-size: 48px;
+    font-weight: bolder;
+}
+.hero .container p{
+    margin-bottom: 12px;
+    color: lightgray;
+}
+.hero .container .button{
+    background-color: #3882F6;
+    color:white;
+    font-weight: bold;
+    height: 40px;
+    width: 130px;
+    border-radius: 10px;
+}
+
+section{
+    background: white;
+}
+
+.pictures{
+    background: white;
+    height: 500px;
+}
+.pictures .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    padding: 64px 16px;
+    color:gray;
+}
+.pictures .container h1{
+    font-size: 36px;
+    font-weight: bolder;
+    margin-bottom: 36px;
+    color:black;
+}
+.pictures .container .boxes .box img{
+    width: 200px;
+    border-radius: 20px;
+    margin-bottom: 8px;
+}
+.pictures .container .boxes{
+    display: flex;
+}
+.pictures .container .boxes .box{
+    margin: 16px;
+}
+
+.testimonial{
+    background: #E5E7EB;
+    height: 400px;
+}
+
+.testimonial .container{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    font-size: 36px;
+    font-style: italic;
+    justify-content: center;
+    color:rgb(83, 83, 83);
+}
+.testimonial .container h3{
+    font-size: 24px;
+    color:black;
+    font-style: normal;
+    align-self: flex-end;
+    margin-top:12px
+}
