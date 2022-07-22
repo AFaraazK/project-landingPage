@@ -127,3 +127,13 @@ section{
     align-self: flex-end;
     margin-top:12px
 }
+
+
+@media (max-width:800px) {
+    .pictures{
+        height: auto;
+    }
+    .pictures .container .boxes{
+        flex-direction: column;
+    }
+}
